@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Calibri','Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(./Image/download.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    flex: 0 1 7%;
+    max-width: 7%;
+    width: 100%;
+}
+
+.col-3 {
+    flex: 0 1 22%;
+    max-width: 22%;
+    width: 100%;
+    margin-right: -24px;
+    color: FireBrick;
+}
+
+.col-7 {
+    flex: 0 1 57%;
+    max-width: 57%;
+    width: 100%;
+    margin-left: -24px;
+}
+
+.col-8 {
+    flex: 0 1 65%;
+    max-width: 65%;
+    width: 100%;
+}
+
+.left {
+    background-color: #FAEBD7;
+    margin: 30px 0 30px 0;
+    border-radius: 10px 0 0 10px;
+    min-height: 700px;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+}
+
+.right {
+    background-color: white;
+    margin: 30px 0 30px 0;
+    border-radius: 0 10px 10px 0;
+    min-height: 700px;
+}
+
+.image {
+    margin: 30px 30px 30px 30px;
+    border: 2px solid LightPink;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.name {
+    font-size: 30px;
+    text-shadow: rgb(78 64 36 / 72%) -1px -2px 0.5em;
+    font-family: 'Roboto Slad','Times New Roman', Times, serif;
+}
+
+.info {
+    text-align: left;
+    margin: 20px 10px 10px 10px;
+    color: IndianRed;
+}
+
+.title {
+    font-size: 19px;
+    font-family: 'Roboto Slad','Times New Roman', Times, serif;
+    background-color: firebrick;
+    color: white;
+    padding: 2px;
+}
+
+.major {
+    font-size: 20px;
+    color: indianred;
+}
+
+.info i {
+    margin-right: 5px;
+}
+
+.info ul li p {
+    margin-left: 10px;
+}
+
+.timeline {
+    background-color: rgb(230, 167, 167);
+    height: 4px;
+    position: relative;
+    width: 190px;
+    margin-bottom: 3px;
+}
+
+.timing {
+    background-color: firebrick;
+    left: 0;
+    height: 4px;
+    position: absolute;
+    top: 0;
+}
+
+.cv {
+    margin: 0 30px 30px 30px;
+}
+
+hr {
+    margin-bottom: 5px;
+}
+
+.cv ul {
+    margin-left: 30px;
+}
+
+.contact {
+    width: 30px;
+    height: 30px;
+    background-color: firebrick;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
